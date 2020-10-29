@@ -6,6 +6,6 @@ def oxford_comma(array)
  else 
    oxford_array = array
    oxford_array[oxford_array.length - 1] = "and {oxford_array[oxford_array.length - 1]}"
-   oxford_array array.join
+   oxford_array = array.join
  end
 end
